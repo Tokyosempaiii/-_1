@@ -30,13 +30,13 @@ jobs:
           python-version: '3.7'
           
       - name: Install Dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r req.txt
       
       - name: Exeute Notebook
-        run: jupyter-nbconvert --execute plot_iris_exercise.ipynb --to html
+        run: jupyter-nbconvert --execute qq.ipynb --to html
         
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.0
         with:
-          name: Artifact
+          name: Qurut
           path: qq.html
