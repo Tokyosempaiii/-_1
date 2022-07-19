@@ -40,4 +40,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.KUKU_2 }}/qz_4:latest
+          tags: ${{ secrets.KUKU_2 }}/qweqw:latest
